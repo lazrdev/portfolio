@@ -191,3 +191,6 @@ div.scroll-container {
       html {
         scroll-behavior: smooth;
       }
+      .bg-blur{
+        backdrop-filter: blur(10px);
+      }
