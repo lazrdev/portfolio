@@ -200,3 +200,28 @@ div.scroll-container {
         background-position: center;
         background-repeat: no-repeat;
       }
+      body {
+        animation: fadeInAnimation ease 0.7s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    .reveal{
+      position: relative;
+      transform: translateY(100px);
+      opacity: 0;
+      transition: 0.7s all ease;
+    }
+    
+    .reveal.active{
+      transform: translateY(0);
+      opacity: 1;
+    }
+    
