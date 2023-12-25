@@ -195,7 +195,7 @@ div.scroll-container {
         backdrop-filter: blur(10px);
       }
       #home{
-        background-image: url("/img/Untitled-1.png");
+        background-image: url("../img/Untitled-1.png");
         background-size:cover;
         background-position: center;
         background-repeat: no-repeat;
